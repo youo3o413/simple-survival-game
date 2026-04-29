@@ -30,18 +30,6 @@ After running the program, the following should be displayed on the window:
 
 > You can customize every GameObject's appearance
 
-### Clone the Dev Template
-
-```console
-git clone https://github.com/oopnccucs/raylib-dev-template.git
-```
-
-> If you name your project `OOPFinal`, enter
-
-```console
-mv raylib-dev-temlate OOPFinal && cd OOPFinal && rm -rf .git/
-```
-
 ### Compile and Run
 
 Before compiling the program, in **Project Folder**:
