@@ -1,14 +1,19 @@
 #include "raylib.h"
-#include <iostream>
-int main() {
+#include "Game.h"
 
-    InitWindow(800, 450, "Raylib OOP");
+int main() {
+    InitWindow(800, 450, "Raylib OOP Game");
     SetTargetFPS(60);
 
+    Game game;
+    game.init();
 
     while (!WindowShouldClose()) {
+        game.update();
+
         BeginDrawing();
         ClearBackground(RAYWHITE);
+        game.draw();
         EndDrawing();
     }
 
