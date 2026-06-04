@@ -8,15 +8,17 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/yoyo0413/oop/assignment-5-youo3o413/src/Game.cpp" "CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Game.cpp.o" "gcc" "CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Game.cpp.o.d"
-  "/home/yoyo0413/oop/assignment-5-youo3o413/src/GameObject.cpp" "CMakeFiles/OOP_Raylib_Lab_lib.dir/src/GameObject.cpp.o" "gcc" "CMakeFiles/OOP_Raylib_Lab_lib.dir/src/GameObject.cpp.o.d"
-  "/home/yoyo0413/oop/assignment-5-youo3o413/src/GameObjectFactory.cpp" "CMakeFiles/OOP_Raylib_Lab_lib.dir/src/GameObjectFactory.cpp.o" "gcc" "CMakeFiles/OOP_Raylib_Lab_lib.dir/src/GameObjectFactory.cpp.o.d"
-  "/home/yoyo0413/oop/assignment-5-youo3o413/src/Player.cpp" "CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Player.cpp.o" "gcc" "CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Player.cpp.o.d"
+  "/home/yoyo0413/oop/assignment-6-youo3o413/src/Enemy.cpp" "CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Enemy.cpp.o" "gcc" "CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Enemy.cpp.o.d"
+  "/home/yoyo0413/oop/assignment-6-youo3o413/src/Game.cpp" "CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Game.cpp.o" "gcc" "CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Game.cpp.o.d"
+  "/home/yoyo0413/oop/assignment-6-youo3o413/src/GameObject.cpp" "CMakeFiles/OOP_Raylib_Lab_lib.dir/src/GameObject.cpp.o" "gcc" "CMakeFiles/OOP_Raylib_Lab_lib.dir/src/GameObject.cpp.o.d"
+  "/home/yoyo0413/oop/assignment-6-youo3o413/src/GameObjectFactory.cpp" "CMakeFiles/OOP_Raylib_Lab_lib.dir/src/GameObjectFactory.cpp.o" "gcc" "CMakeFiles/OOP_Raylib_Lab_lib.dir/src/GameObjectFactory.cpp.o.d"
+  "/home/yoyo0413/oop/assignment-6-youo3o413/src/Player.cpp" "CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Player.cpp.o" "gcc" "CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Player.cpp.o.d"
+  "/home/yoyo0413/oop/assignment-6-youo3o413/src/Projectile.cpp" "CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Projectile.cpp.o" "gcc" "CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Projectile.cpp.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/yoyo0413/oop/assignment-5-youo3o413/build/_deps/raylib-build/raylib/CMakeFiles/raylib.dir/DependInfo.cmake"
+  "/home/yoyo0413/oop/assignment-6-youo3o413/build/_deps/raylib-build/raylib/CMakeFiles/raylib.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

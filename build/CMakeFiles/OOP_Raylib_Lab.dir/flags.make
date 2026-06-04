@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
 
-CXX_INCLUDES = -I/home/yoyo0413/oop/assignment-5-youo3o413/include -I/home/yoyo0413/oop/assignment-5-youo3o413/build/_deps/raylib-src/src -I/home/yoyo0413/oop/assignment-5-youo3o413/build/_deps/raylib-src/src/external/glfw/include
+CXX_INCLUDES = -I/home/yoyo0413/oop/assignment-6-youo3o413/include -I/home/yoyo0413/oop/assignment-6-youo3o413/build/_deps/raylib-src/src -I/home/yoyo0413/oop/assignment-6-youo3o413/build/_deps/raylib-src/src/external/glfw/include
 
 CXX_FLAGS = -std=c++17
 

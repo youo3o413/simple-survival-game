@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/yoyo0413/oop/assignment-5-youo3o413/build/_deps/raylib-src/src
-# Build directory: /home/yoyo0413/oop/assignment-5-youo3o413/build/_deps/raylib-build/raylib
+# Source directory: /home/yoyo0413/oop/assignment-6-youo3o413/build/_deps/raylib-src/src
+# Build directory: /home/yoyo0413/oop/assignment-6-youo3o413/build/_deps/raylib-build/raylib
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

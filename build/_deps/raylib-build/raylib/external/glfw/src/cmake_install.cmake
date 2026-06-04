@@ -1,4 +1,4 @@
-# Install script for directory: /home/yoyo0413/oop/assignment-5-youo3o413/build/_deps/raylib-src/src/external/glfw/src
+# Install script for directory: /home/yoyo0413/oop/assignment-6-youo3o413/build/_deps/raylib-src/src/external/glfw/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

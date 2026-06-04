@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yoyo0413/oop/assignment-5-youo3o413
+CMAKE_SOURCE_DIR = /home/yoyo0413/oop/assignment-6-youo3o413
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yoyo0413/oop/assignment-5-youo3o413/build
+CMAKE_BINARY_DIR = /home/yoyo0413/oop/assignment-6-youo3o413/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/OOP_Raylib_Lab_lib.dir/depend.make
@@ -69,79 +69,111 @@ include CMakeFiles/OOP_Raylib_Lab_lib.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/OOP_Raylib_Lab_lib.dir/flags.make
 
+CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Enemy.cpp.o: CMakeFiles/OOP_Raylib_Lab_lib.dir/flags.make
+CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Enemy.cpp.o: ../src/Enemy.cpp
+CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Enemy.cpp.o: CMakeFiles/OOP_Raylib_Lab_lib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yoyo0413/oop/assignment-6-youo3o413/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Enemy.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Enemy.cpp.o -MF CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Enemy.cpp.o.d -o CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Enemy.cpp.o -c /home/yoyo0413/oop/assignment-6-youo3o413/src/Enemy.cpp
+
+CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Enemy.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Enemy.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yoyo0413/oop/assignment-6-youo3o413/src/Enemy.cpp > CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Enemy.cpp.i
+
+CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Enemy.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Enemy.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yoyo0413/oop/assignment-6-youo3o413/src/Enemy.cpp -o CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Enemy.cpp.s
+
 CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Game.cpp.o: CMakeFiles/OOP_Raylib_Lab_lib.dir/flags.make
 CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Game.cpp.o: ../src/Game.cpp
 CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Game.cpp.o: CMakeFiles/OOP_Raylib_Lab_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yoyo0413/oop/assignment-5-youo3o413/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Game.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Game.cpp.o -MF CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Game.cpp.o.d -o CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Game.cpp.o -c /home/yoyo0413/oop/assignment-5-youo3o413/src/Game.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yoyo0413/oop/assignment-6-youo3o413/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Game.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Game.cpp.o -MF CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Game.cpp.o.d -o CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Game.cpp.o -c /home/yoyo0413/oop/assignment-6-youo3o413/src/Game.cpp
 
 CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Game.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Game.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yoyo0413/oop/assignment-5-youo3o413/src/Game.cpp > CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Game.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yoyo0413/oop/assignment-6-youo3o413/src/Game.cpp > CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Game.cpp.i
 
 CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Game.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Game.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yoyo0413/oop/assignment-5-youo3o413/src/Game.cpp -o CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Game.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yoyo0413/oop/assignment-6-youo3o413/src/Game.cpp -o CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Game.cpp.s
 
 CMakeFiles/OOP_Raylib_Lab_lib.dir/src/GameObject.cpp.o: CMakeFiles/OOP_Raylib_Lab_lib.dir/flags.make
 CMakeFiles/OOP_Raylib_Lab_lib.dir/src/GameObject.cpp.o: ../src/GameObject.cpp
 CMakeFiles/OOP_Raylib_Lab_lib.dir/src/GameObject.cpp.o: CMakeFiles/OOP_Raylib_Lab_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yoyo0413/oop/assignment-5-youo3o413/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/OOP_Raylib_Lab_lib.dir/src/GameObject.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_Raylib_Lab_lib.dir/src/GameObject.cpp.o -MF CMakeFiles/OOP_Raylib_Lab_lib.dir/src/GameObject.cpp.o.d -o CMakeFiles/OOP_Raylib_Lab_lib.dir/src/GameObject.cpp.o -c /home/yoyo0413/oop/assignment-5-youo3o413/src/GameObject.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yoyo0413/oop/assignment-6-youo3o413/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/OOP_Raylib_Lab_lib.dir/src/GameObject.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_Raylib_Lab_lib.dir/src/GameObject.cpp.o -MF CMakeFiles/OOP_Raylib_Lab_lib.dir/src/GameObject.cpp.o.d -o CMakeFiles/OOP_Raylib_Lab_lib.dir/src/GameObject.cpp.o -c /home/yoyo0413/oop/assignment-6-youo3o413/src/GameObject.cpp
 
 CMakeFiles/OOP_Raylib_Lab_lib.dir/src/GameObject.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP_Raylib_Lab_lib.dir/src/GameObject.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yoyo0413/oop/assignment-5-youo3o413/src/GameObject.cpp > CMakeFiles/OOP_Raylib_Lab_lib.dir/src/GameObject.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yoyo0413/oop/assignment-6-youo3o413/src/GameObject.cpp > CMakeFiles/OOP_Raylib_Lab_lib.dir/src/GameObject.cpp.i
 
 CMakeFiles/OOP_Raylib_Lab_lib.dir/src/GameObject.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP_Raylib_Lab_lib.dir/src/GameObject.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yoyo0413/oop/assignment-5-youo3o413/src/GameObject.cpp -o CMakeFiles/OOP_Raylib_Lab_lib.dir/src/GameObject.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yoyo0413/oop/assignment-6-youo3o413/src/GameObject.cpp -o CMakeFiles/OOP_Raylib_Lab_lib.dir/src/GameObject.cpp.s
 
 CMakeFiles/OOP_Raylib_Lab_lib.dir/src/GameObjectFactory.cpp.o: CMakeFiles/OOP_Raylib_Lab_lib.dir/flags.make
 CMakeFiles/OOP_Raylib_Lab_lib.dir/src/GameObjectFactory.cpp.o: ../src/GameObjectFactory.cpp
 CMakeFiles/OOP_Raylib_Lab_lib.dir/src/GameObjectFactory.cpp.o: CMakeFiles/OOP_Raylib_Lab_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yoyo0413/oop/assignment-5-youo3o413/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/OOP_Raylib_Lab_lib.dir/src/GameObjectFactory.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_Raylib_Lab_lib.dir/src/GameObjectFactory.cpp.o -MF CMakeFiles/OOP_Raylib_Lab_lib.dir/src/GameObjectFactory.cpp.o.d -o CMakeFiles/OOP_Raylib_Lab_lib.dir/src/GameObjectFactory.cpp.o -c /home/yoyo0413/oop/assignment-5-youo3o413/src/GameObjectFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yoyo0413/oop/assignment-6-youo3o413/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/OOP_Raylib_Lab_lib.dir/src/GameObjectFactory.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_Raylib_Lab_lib.dir/src/GameObjectFactory.cpp.o -MF CMakeFiles/OOP_Raylib_Lab_lib.dir/src/GameObjectFactory.cpp.o.d -o CMakeFiles/OOP_Raylib_Lab_lib.dir/src/GameObjectFactory.cpp.o -c /home/yoyo0413/oop/assignment-6-youo3o413/src/GameObjectFactory.cpp
 
 CMakeFiles/OOP_Raylib_Lab_lib.dir/src/GameObjectFactory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP_Raylib_Lab_lib.dir/src/GameObjectFactory.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yoyo0413/oop/assignment-5-youo3o413/src/GameObjectFactory.cpp > CMakeFiles/OOP_Raylib_Lab_lib.dir/src/GameObjectFactory.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yoyo0413/oop/assignment-6-youo3o413/src/GameObjectFactory.cpp > CMakeFiles/OOP_Raylib_Lab_lib.dir/src/GameObjectFactory.cpp.i
 
 CMakeFiles/OOP_Raylib_Lab_lib.dir/src/GameObjectFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP_Raylib_Lab_lib.dir/src/GameObjectFactory.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yoyo0413/oop/assignment-5-youo3o413/src/GameObjectFactory.cpp -o CMakeFiles/OOP_Raylib_Lab_lib.dir/src/GameObjectFactory.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yoyo0413/oop/assignment-6-youo3o413/src/GameObjectFactory.cpp -o CMakeFiles/OOP_Raylib_Lab_lib.dir/src/GameObjectFactory.cpp.s
 
 CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Player.cpp.o: CMakeFiles/OOP_Raylib_Lab_lib.dir/flags.make
 CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Player.cpp.o: ../src/Player.cpp
 CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Player.cpp.o: CMakeFiles/OOP_Raylib_Lab_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yoyo0413/oop/assignment-5-youo3o413/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Player.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Player.cpp.o -MF CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Player.cpp.o.d -o CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Player.cpp.o -c /home/yoyo0413/oop/assignment-5-youo3o413/src/Player.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yoyo0413/oop/assignment-6-youo3o413/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Player.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Player.cpp.o -MF CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Player.cpp.o.d -o CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Player.cpp.o -c /home/yoyo0413/oop/assignment-6-youo3o413/src/Player.cpp
 
 CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Player.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Player.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yoyo0413/oop/assignment-5-youo3o413/src/Player.cpp > CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Player.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yoyo0413/oop/assignment-6-youo3o413/src/Player.cpp > CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Player.cpp.i
 
 CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Player.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Player.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yoyo0413/oop/assignment-5-youo3o413/src/Player.cpp -o CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Player.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yoyo0413/oop/assignment-6-youo3o413/src/Player.cpp -o CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Player.cpp.s
+
+CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Projectile.cpp.o: CMakeFiles/OOP_Raylib_Lab_lib.dir/flags.make
+CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Projectile.cpp.o: ../src/Projectile.cpp
+CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Projectile.cpp.o: CMakeFiles/OOP_Raylib_Lab_lib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yoyo0413/oop/assignment-6-youo3o413/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Projectile.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Projectile.cpp.o -MF CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Projectile.cpp.o.d -o CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Projectile.cpp.o -c /home/yoyo0413/oop/assignment-6-youo3o413/src/Projectile.cpp
+
+CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Projectile.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Projectile.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yoyo0413/oop/assignment-6-youo3o413/src/Projectile.cpp > CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Projectile.cpp.i
+
+CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Projectile.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Projectile.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yoyo0413/oop/assignment-6-youo3o413/src/Projectile.cpp -o CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Projectile.cpp.s
 
 # Object files for target OOP_Raylib_Lab_lib
 OOP_Raylib_Lab_lib_OBJECTS = \
+"CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Enemy.cpp.o" \
 "CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Game.cpp.o" \
 "CMakeFiles/OOP_Raylib_Lab_lib.dir/src/GameObject.cpp.o" \
 "CMakeFiles/OOP_Raylib_Lab_lib.dir/src/GameObjectFactory.cpp.o" \
-"CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Player.cpp.o"
+"CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Player.cpp.o" \
+"CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Projectile.cpp.o"
 
 # External object files for target OOP_Raylib_Lab_lib
 OOP_Raylib_Lab_lib_EXTERNAL_OBJECTS =
 
+libOOP_Raylib_Lab_lib.a: CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Enemy.cpp.o
 libOOP_Raylib_Lab_lib.a: CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Game.cpp.o
 libOOP_Raylib_Lab_lib.a: CMakeFiles/OOP_Raylib_Lab_lib.dir/src/GameObject.cpp.o
 libOOP_Raylib_Lab_lib.a: CMakeFiles/OOP_Raylib_Lab_lib.dir/src/GameObjectFactory.cpp.o
 libOOP_Raylib_Lab_lib.a: CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Player.cpp.o
+libOOP_Raylib_Lab_lib.a: CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Projectile.cpp.o
 libOOP_Raylib_Lab_lib.a: CMakeFiles/OOP_Raylib_Lab_lib.dir/build.make
 libOOP_Raylib_Lab_lib.a: CMakeFiles/OOP_Raylib_Lab_lib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yoyo0413/oop/assignment-5-youo3o413/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libOOP_Raylib_Lab_lib.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yoyo0413/oop/assignment-6-youo3o413/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library libOOP_Raylib_Lab_lib.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/OOP_Raylib_Lab_lib.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/OOP_Raylib_Lab_lib.dir/link.txt --verbose=$(VERBOSE)
 
@@ -154,6 +186,6 @@ CMakeFiles/OOP_Raylib_Lab_lib.dir/clean:
 .PHONY : CMakeFiles/OOP_Raylib_Lab_lib.dir/clean
 
 CMakeFiles/OOP_Raylib_Lab_lib.dir/depend:
-	cd /home/yoyo0413/oop/assignment-5-youo3o413/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yoyo0413/oop/assignment-5-youo3o413 /home/yoyo0413/oop/assignment-5-youo3o413 /home/yoyo0413/oop/assignment-5-youo3o413/build /home/yoyo0413/oop/assignment-5-youo3o413/build /home/yoyo0413/oop/assignment-5-youo3o413/build/CMakeFiles/OOP_Raylib_Lab_lib.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yoyo0413/oop/assignment-6-youo3o413/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yoyo0413/oop/assignment-6-youo3o413 /home/yoyo0413/oop/assignment-6-youo3o413 /home/yoyo0413/oop/assignment-6-youo3o413/build /home/yoyo0413/oop/assignment-6-youo3o413/build /home/yoyo0413/oop/assignment-6-youo3o413/build/CMakeFiles/OOP_Raylib_Lab_lib.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/OOP_Raylib_Lab_lib.dir/depend
 

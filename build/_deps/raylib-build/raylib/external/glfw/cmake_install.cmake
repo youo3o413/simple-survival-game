@@ -1,4 +1,4 @@
-# Install script for directory: /home/yoyo0413/oop/assignment-5-youo3o413/build/_deps/raylib-src/src/external/glfw
+# Install script for directory: /home/yoyo0413/oop/assignment-6-youo3o413/build/_deps/raylib-src/src/external/glfw
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,6 +44,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/yoyo0413/oop/assignment-5-youo3o413/build/_deps/raylib-build/raylib/external/glfw/src/cmake_install.cmake")
+  include("/home/yoyo0413/oop/assignment-6-youo3o413/build/_deps/raylib-build/raylib/external/glfw/src/cmake_install.cmake")
 endif()
 

@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yoyo0413/oop/assignment-5-youo3o413
+CMAKE_SOURCE_DIR = /home/yoyo0413/oop/assignment-6-youo3o413
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yoyo0413/oop/assignment-5-youo3o413/build
+CMAKE_BINARY_DIR = /home/yoyo0413/oop/assignment-6-youo3o413/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -78,7 +78,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	/usr/bin/cpack --config ./CPackSourceConfig.cmake /home/yoyo0413/oop/assignment-5-youo3o413/build/CPackSourceConfig.cmake
+	/usr/bin/cpack --config ./CPackSourceConfig.cmake /home/yoyo0413/oop/assignment-6-youo3o413/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -152,9 +152,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yoyo0413/oop/assignment-5-youo3o413/build/CMakeFiles /home/yoyo0413/oop/assignment-5-youo3o413/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yoyo0413/oop/assignment-6-youo3o413/build/CMakeFiles /home/yoyo0413/oop/assignment-6-youo3o413/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yoyo0413/oop/assignment-5-youo3o413/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yoyo0413/oop/assignment-6-youo3o413/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -178,7 +178,7 @@ preinstall/fast:
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -P /home/yoyo0413/oop/assignment-5-youo3o413/build/CMakeFiles/VerifyGlobs.cmake
+	$(CMAKE_COMMAND) -P /home/yoyo0413/oop/assignment-6-youo3o413/build/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
@@ -259,6 +259,30 @@ update_mappings: cmake_check_build_system
 update_mappings/fast:
 	$(MAKE) $(MAKESILENT) -f _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/update_mappings.dir/build.make _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/update_mappings.dir/build
 .PHONY : update_mappings/fast
+
+src/Enemy.o: src/Enemy.cpp.o
+.PHONY : src/Enemy.o
+
+# target to build an object file
+src/Enemy.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOP_Raylib_Lab_lib.dir/build.make CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Enemy.cpp.o
+.PHONY : src/Enemy.cpp.o
+
+src/Enemy.i: src/Enemy.cpp.i
+.PHONY : src/Enemy.i
+
+# target to preprocess a source file
+src/Enemy.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOP_Raylib_Lab_lib.dir/build.make CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Enemy.cpp.i
+.PHONY : src/Enemy.cpp.i
+
+src/Enemy.s: src/Enemy.cpp.s
+.PHONY : src/Enemy.s
+
+# target to generate assembly for a file
+src/Enemy.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOP_Raylib_Lab_lib.dir/build.make CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Enemy.cpp.s
+.PHONY : src/Enemy.cpp.s
 
 src/Game.o: src/Game.cpp.o
 .PHONY : src/Game.o
@@ -356,6 +380,30 @@ src/Player.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOP_Raylib_Lab_lib.dir/build.make CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Player.cpp.s
 .PHONY : src/Player.cpp.s
 
+src/Projectile.o: src/Projectile.cpp.o
+.PHONY : src/Projectile.o
+
+# target to build an object file
+src/Projectile.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOP_Raylib_Lab_lib.dir/build.make CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Projectile.cpp.o
+.PHONY : src/Projectile.cpp.o
+
+src/Projectile.i: src/Projectile.cpp.i
+.PHONY : src/Projectile.i
+
+# target to preprocess a source file
+src/Projectile.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOP_Raylib_Lab_lib.dir/build.make CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Projectile.cpp.i
+.PHONY : src/Projectile.cpp.i
+
+src/Projectile.s: src/Projectile.cpp.s
+.PHONY : src/Projectile.s
+
+# target to generate assembly for a file
+src/Projectile.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOP_Raylib_Lab_lib.dir/build.make CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Projectile.cpp.s
+.PHONY : src/Projectile.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -400,6 +448,9 @@ help:
 	@echo "... OOP_Raylib_Lab_lib"
 	@echo "... glfw"
 	@echo "... raylib"
+	@echo "... src/Enemy.o"
+	@echo "... src/Enemy.i"
+	@echo "... src/Enemy.s"
 	@echo "... src/Game.o"
 	@echo "... src/Game.i"
 	@echo "... src/Game.s"
@@ -412,6 +463,9 @@ help:
 	@echo "... src/Player.o"
 	@echo "... src/Player.i"
 	@echo "... src/Player.s"
+	@echo "... src/Projectile.o"
+	@echo "... src/Projectile.i"
+	@echo "... src/Projectile.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
@@ -426,7 +480,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -P /home/yoyo0413/oop/assignment-5-youo3o413/build/CMakeFiles/VerifyGlobs.cmake
+	$(CMAKE_COMMAND) -P /home/yoyo0413/oop/assignment-6-youo3o413/build/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

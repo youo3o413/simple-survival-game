@@ -22,8 +22,8 @@ set_property(GLOBAL PROPERTY _CMAKE_FindGit_GIT_EXECUTABLE_VERSION
 include(ExternalProject)
 ExternalProject_Add(raylib-populate
                      "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://github.com/raysan5/raylib.git" "GIT_TAG" "5.5" "GIT_SHALLOW" "TRUE"
-                    SOURCE_DIR          "/home/yoyo0413/oop/assignment-5-youo3o413/build/_deps/raylib-src"
-                    BINARY_DIR          "/home/yoyo0413/oop/assignment-5-youo3o413/build/_deps/raylib-build"
+                    SOURCE_DIR          "/home/yoyo0413/oop/assignment-6-youo3o413/build/_deps/raylib-src"
+                    BINARY_DIR          "/home/yoyo0413/oop/assignment-6-youo3o413/build/_deps/raylib-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

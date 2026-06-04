@@ -1,2 +1,2 @@
-/usr/bin/ar qc libOOP_Raylib_Lab_lib.a CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Game.cpp.o CMakeFiles/OOP_Raylib_Lab_lib.dir/src/GameObject.cpp.o CMakeFiles/OOP_Raylib_Lab_lib.dir/src/GameObjectFactory.cpp.o CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Player.cpp.o
+/usr/bin/ar qc libOOP_Raylib_Lab_lib.a CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Enemy.cpp.o CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Game.cpp.o CMakeFiles/OOP_Raylib_Lab_lib.dir/src/GameObject.cpp.o CMakeFiles/OOP_Raylib_Lab_lib.dir/src/GameObjectFactory.cpp.o CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Player.cpp.o CMakeFiles/OOP_Raylib_Lab_lib.dir/src/Projectile.cpp.o
 /usr/bin/ranlib libOOP_Raylib_Lab_lib.a

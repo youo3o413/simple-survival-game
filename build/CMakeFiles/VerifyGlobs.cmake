@@ -3,28 +3,32 @@
 cmake_policy(SET CMP0009 NEW)
 
 # GAME_SOURCES at CMakeLists.txt:17 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/yoyo0413/oop/assignment-5-youo3o413/include/*.h")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/yoyo0413/oop/assignment-6-youo3o413/include/*.h")
 set(OLD_GLOB
-  "/home/yoyo0413/oop/assignment-5-youo3o413/include/Game.h"
-  "/home/yoyo0413/oop/assignment-5-youo3o413/include/GameObject.h"
-  "/home/yoyo0413/oop/assignment-5-youo3o413/include/GameObjectFactory.h"
-  "/home/yoyo0413/oop/assignment-5-youo3o413/include/Player.h"
+  "/home/yoyo0413/oop/assignment-6-youo3o413/include/Enemy.h"
+  "/home/yoyo0413/oop/assignment-6-youo3o413/include/Game.h"
+  "/home/yoyo0413/oop/assignment-6-youo3o413/include/GameObject.h"
+  "/home/yoyo0413/oop/assignment-6-youo3o413/include/GameObjectFactory.h"
+  "/home/yoyo0413/oop/assignment-6-youo3o413/include/Player.h"
+  "/home/yoyo0413/oop/assignment-6-youo3o413/include/Projectile.h"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/yoyo0413/oop/assignment-5-youo3o413/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/yoyo0413/oop/assignment-6-youo3o413/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # GAME_SOURCES at CMakeLists.txt:17 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/yoyo0413/oop/assignment-5-youo3o413/src/*.cpp")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/yoyo0413/oop/assignment-6-youo3o413/src/*.cpp")
 set(OLD_GLOB
-  "/home/yoyo0413/oop/assignment-5-youo3o413/src/Game.cpp"
-  "/home/yoyo0413/oop/assignment-5-youo3o413/src/GameObject.cpp"
-  "/home/yoyo0413/oop/assignment-5-youo3o413/src/GameObjectFactory.cpp"
-  "/home/yoyo0413/oop/assignment-5-youo3o413/src/Player.cpp"
-  "/home/yoyo0413/oop/assignment-5-youo3o413/src/main.cpp"
+  "/home/yoyo0413/oop/assignment-6-youo3o413/src/Enemy.cpp"
+  "/home/yoyo0413/oop/assignment-6-youo3o413/src/Game.cpp"
+  "/home/yoyo0413/oop/assignment-6-youo3o413/src/GameObject.cpp"
+  "/home/yoyo0413/oop/assignment-6-youo3o413/src/GameObjectFactory.cpp"
+  "/home/yoyo0413/oop/assignment-6-youo3o413/src/Player.cpp"
+  "/home/yoyo0413/oop/assignment-6-youo3o413/src/Projectile.cpp"
+  "/home/yoyo0413/oop/assignment-6-youo3o413/src/main.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/yoyo0413/oop/assignment-5-youo3o413/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/yoyo0413/oop/assignment-6-youo3o413/build/CMakeFiles/cmake.verify_globs")
 endif()
