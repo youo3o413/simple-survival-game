@@ -6,6 +6,7 @@
 #include <cmath>
 #include <algorithm>
 
+//計時器 & 初始化遊戲狀態
 void Game::init() {
     spawnTimer = 0.0f;
     spawnInterval = 2.0f;
@@ -22,15 +23,22 @@ void Game::init() {
     objects.push_back(GameObjectFactory::createObject("enemy", {650, 300}));
 }
 
+//碰撞判定
 bool Game::checkCollision(GameObject* a, GameObject* b) const {
     Rectangle rectA = {a->getPosition().x, a->getPosition().y, a->getSize(), a->getSize()};
     Rectangle rectB = {b->getPosition().x, b->getPosition().y, b->getSize(), b->getSize()};
     return CheckCollisionRecs(rectA, rectB);
 }
 
+//更新遊戲狀態
 void Game::update() {
-    if (gameOver) return;
-
+   if (gameOver) {
+        if (IsKeyPressed(KEY_R)) {
+            objects.clear();
+            init();
+        }
+        return;
+    }
     survivalTime += GetFrameTime();
     spawnTimer += GetFrameTime();
     attackTimer += GetFrameTime();
@@ -48,7 +56,7 @@ void Game::update() {
 
         objects.push_back(GameObjectFactory::createObject("enemy", pos));
     }
-
+//取得玩家位置
     Vector2 playerPosition = objects[0]->getPosition();
 
     if (attackTimer >= attackInterval) {
@@ -83,7 +91,7 @@ void Game::update() {
             objects.push_back(std::make_unique<Projectile>(playerPosition, direction));
         }
     }
-
+//更新所有物件
     for (auto& object : objects) {
         Enemy* enemy = dynamic_cast<Enemy*>(object.get());
 
@@ -130,7 +138,7 @@ void Game::update() {
             }
         }
     }
-
+//移除死亡物件
     objects.erase(
         std::remove_if(objects.begin() + 1, objects.end(),
             [](const std::unique_ptr<GameObject>& object) {
@@ -157,7 +165,8 @@ void Game::draw() const {
         object->draw();
     }
 
-    if (gameOver) {
-        DrawText("GAME OVER", 280, 190, 50, RED);
-    }
+   if (gameOver) {
+    DrawText("GAME OVER", 280, 190, 50, RED);
+    DrawText("Press R to Restart", 260, 260, 20, DARKGRAY);
+}
 }
